@@ -1,13 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>actividad-coffee-sales</title>
+    <title>Coffee Sales Datatable</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+
+  <body class="min-h-screen bg-slate-100 p-6">
+    <main class="mx-auto max-w-7xl">
+      <section class="rounded-2xl bg-white p-6 shadow">
+        <h1 class="mb-2 text-3xl font-bold text-slate-800">
+          Actividad: Coffee Sales
+        </h1>
+
+        <h2 class="mb-6 text-xl font-semibold text-slate-600">
+          Matrícula: 202506721 - Ayrton Andres Carriel Moreira
+        </h2>
+
+        <p id="status-message" class="mb-4 text-sm text-slate-500">
+          Cargando datos...
+        </p>
+
+        <div class="overflow-x-auto">
+          <table id="sales-table" class="w-full">
+            <thead>
+              <tr>
+                <th>Cargando...</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Esperando datos</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/js/index.js"></script>
   </body>
 </html>
