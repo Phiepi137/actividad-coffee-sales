@@ -1,1 +1,3 @@
-# actividad-coffee-sales
+# Javascript - Requerimientos Asíncronos
+
+Ayrton Andres Carriel Moreira
